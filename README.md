@@ -1,6 +1,6 @@
-#Node.js Postgres Example API
+# Node.js Postgres Example API
 
-##Steps to set up:
+## Steps to set up:
 
 1. Install Postgresql and nodejs if not already
 2. Clone this repository and cd into the root directory
