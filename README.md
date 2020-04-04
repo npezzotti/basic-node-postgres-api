@@ -2,7 +2,7 @@
 
 ## Steps to set up:
 
-1. Install Postgresql and nodejs if not already
+1. Install PostgreSQL and node.js if not already
 2. Clone this repository and cd into the root directory
 3. run `npm i`
 5. run `psql -d postgres -U <your_user>
