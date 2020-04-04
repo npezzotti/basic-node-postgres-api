@@ -1,4 +1,4 @@
-const { pool } = require('./pgConfig')
+const { pool } = require('./pgConfig');
 
 const getUsers = (req, res) => {
     pool.query('SELECT * FROM users ORDER BY id ASC', (error, results) => {
