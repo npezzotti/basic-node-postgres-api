@@ -3,7 +3,7 @@
 ## Steps to set up:
 
 1. Install PostgreSQL and node.js if not already
-2. Clone this repository and cd into the root directory
+2. Clone this repository and cd into the project root directory
 3. run `npm i`
 5. run `psql -d postgres -U <your_user>
 6. run `CREATE DATABASE api;`
