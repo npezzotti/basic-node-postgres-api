@@ -6,7 +6,7 @@
 2. Clone this repository and cd into the root directory
 3. run `npm i`
 4. run `createdb api`
-5. touch `pgConfig.js` and enter the following content:
+5. run `touch pgConfig.js` and enter the following content:
      `const Pool = require('pg').Pool;
 
       module.exports = pool = new Pool({
