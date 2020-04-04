@@ -7,7 +7,7 @@
 3. run `npm i`
 4. run `createdb api`
 5. run `touch pgConfig.js` and enter the following content:
-    
+    ```
     const Pool = require('pg').Pool;
 
     module.exports = pool = new Pool({
@@ -17,5 +17,5 @@
           password: '<your_password>',
           port: 5432
     });
-    
+    ```
 6. run `node app.js`
